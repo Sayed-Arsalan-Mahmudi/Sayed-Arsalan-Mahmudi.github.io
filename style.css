@@ -1,0 +1,117 @@
+body {
+    height: 100vh;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+button{
+    margin: 10px;
+    font-size: 20px;
+}
+
+.themeButton {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin-top: 20px;
+    margin-left: 20px; */
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    transition: background-color 0.5s ease;
+}
+
+.themeButton:hover {
+    background-color: white;
+    border-color:black;
+    color: black;
+}
+
+.darkButton {
+    border-color: white;
+    color: white;
+}
+
+div {
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 40px;
+    color: white;
+    border: 3px solid white;
+
+}
+
+.darkDiv {
+    background-color: black;
+    color: white;
+
+}
+
+.firstDivButton {
+    cursor: pointer;
+    color: white;
+    background-color: brown;
+    margin: 20px;
+    border-radius: 5px;
+    border: solid transparent;
+    height: auto;
+    width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+.firstDivButton:hover {
+    background-color: rgb(170, 65, 65);
+}
+
+.firstDivP {
+    text-align: left;
+    margin: 0;
+    flex: 1;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between; /* p sola, buton sağa */
+  align-items: center;            /* dikey ortala */
+  margin: 10px 0;
+}
+
+.firstDiv {
+  background-color: black;
+  border-radius: 10px;
+  padding: 30px;
+  color: white;
+  border: 3px solid white;
+  font-size: 30px;
+  width: 600px; /* genişliği sabitle, hizalama düzgün olsun */
+}
+
+
+
+
+
