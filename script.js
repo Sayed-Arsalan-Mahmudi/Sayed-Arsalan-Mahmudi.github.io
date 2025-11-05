@@ -15,8 +15,3 @@ themeButton.addEventListener('click', function() { // typing codes for one tag.
         themeButton.textContent = 'Dark';
     }
 });
-
-
-counter++;
-localStorage.setItem('visits', counter);
-document.getElementById('counter').textContent = "Visits: " + counter;
