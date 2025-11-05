@@ -3,8 +3,7 @@ const themeButton = document.getElementById("themeButton");
 // const homePageButton = document.getElementById("homePageButton");
 const block = document.getElementById("block");
 
-let counter = localStorage.getItem('visits') || 0;
-
+const counter = document.getElementById('counter');
 
 themeButton.addEventListener('click', function() { // typing codes for one tag.
     document.body.classList.toggle('dark'); // changes the body's css to .dark css if it's not .dark css.
@@ -17,6 +16,7 @@ themeButton.addEventListener('click', function() { // typing codes for one tag.
     }
 });
 
+
 counter++;
 localStorage.setItem('visits', counter);
-document.getElementById('counter').textContent = "Visitors: " + counter;
+document.getElementById('counter').textContent = "Visits: " + counter;
