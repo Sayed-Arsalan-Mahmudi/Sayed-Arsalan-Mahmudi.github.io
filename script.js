@@ -1,7 +1,8 @@
 const themeButton = document.getElementById("themeButton");
 // const wathThisVideoButton = document.getElementById("wathThisVideoButton");
 // const homePageButton = document.getElementById("homePageButton");
-const block = document.getElementById("block");
+const body = document.body;
+
 
 themeButton.addEventListener('click', function() { // typing codes for one tag.
     document.body.classList.toggle('dark'); // changes the body's css to .dark css if it's not .dark css.
@@ -13,3 +14,4 @@ themeButton.addEventListener('click', function() { // typing codes for one tag.
         themeButton.textContent = 'Dark';
     }
 });
+
