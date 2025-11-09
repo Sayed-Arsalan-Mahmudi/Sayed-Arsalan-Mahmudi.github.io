@@ -39,6 +39,15 @@
       position: relative;
     }
 
+    .day-1 {
+      background-color: yellow;
+      border: 2px solid #333;
+      border-radius: 10px;
+      padding: 10px;
+      height: 200px;
+      position: relative;
+    }
+
     .day-total {
       background-color: white;
       border: 2px solid #333;
@@ -48,7 +57,26 @@
       position: relative;
     }
 
+    .day-1-total {
+      background-color: white;
+      border: 2px solid #333;
+      border-radius: 10px;
+      padding: 10px;
+      height: 350px;
+      position: relative;
+    }
     .day h2 {
+      position: absolute;
+      top: -14px;
+      left: 15px;
+      background-color: white;
+      padding: 0 5px;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .day-1 h2 {
       position: absolute;
       top: -14px;
       left: 15px;
@@ -62,6 +90,10 @@
     .day:nth-child(7) {
       grid-column: 1 / span 2;
     }
+
+    .day-1:nth-child(7) {
+      grid-column: 1 / span 2;
+    }
   </style>
 </head>
 <body>
@@ -70,8 +102,8 @@
 
   <div class="grid">
     <div class="day"><h2>Cumartesi</h2><p><br>Konu tekrarı<br>Derslerle alakalı soru çözümü<br>25 Paragraf<br>15 Matematik yeni nesil<br>Ödev verilen (Özel Sınıf Matematik) soruları<br>30 Sayfa kitap okuma</p></div>
-    <div class="day"><h2>Pazar</h2><p><br>Konu tekrarı<br>Derslerle alakalı soru çözümü<br>25 Paragraf<br>15 Matematik yeni nesil<br>Fasikül İnkılap (Haftalık)<br>20 Soru İnkılap<br>30 Sayfa kitap okuma</p></p></div>
-    <div class="day"><h2>Pazartesi</h2><p><br>Konu tekrarı<br>Derslerle alakalı soru çözümü<br>30 Paragraf<br>20 Matematik yeni nesil<br>Türkçe 30 soru<br>Fen Bilimleri 20 soru<br>40 Sayfa kitap okuma</p></div>
+    <div class="day-1"><h2>Pazar</h2><p><br>Konu tekrarı<br>Derslerle alakalı soru çözümü<br>25 Paragraf<br>15 Matematik yeni nesil<br>Fasikül İnkılap (Haftalık)<br>20 Soru İnkılap<br>30 Sayfa kitap okuma</p></p></div>
+    <div class="day-1"><h2>Pazartesi</h2><p><br>Konu tekrarı<br>Derslerle alakalı soru çözümü<br>30 Paragraf<br>20 Matematik yeni nesil<br>Türkçe 30 soru<br>Fen Bilimleri 20 soru<br>40 Sayfa kitap okuma</p></div>
     <div class="day"><h2>Salı</h2><p><br>Konu tekrarı<br>Derslerle alakalı soru çözümü<br>25 Paragraf<br>10 Matematik yeni nesil<br>Ödev verilen (Özel Sınıf Matematik) soruları<br>Fen Bilimleri 85 soru</p></div>
     <div class="day"><h2>Çarşamba</h2><p><br>Konu tekrarı<br>Derslerle alakalı soru çözümü<br>35 Paragraf<br>25 Matematik yeni nesil<br>Ödev verilen (Özel Sınıf Matematik) soruları<br>Fen Bilimleri 60 soru<br>40 Sayfa kitap okuma</p></div>
     <div class="day"><h2>Perşembe</h2><p><br>Konu tekrarı<br>Derslerle alakalı soru çözümü<br>25 Paragraf<br>10 Matematik yeni nesil<br>Ödev verilen (Özel Sınıf Matematik) soruları<br>Fen Bilimleri 60 soru<br>30 Sayfa kitap okuma</p></div>
