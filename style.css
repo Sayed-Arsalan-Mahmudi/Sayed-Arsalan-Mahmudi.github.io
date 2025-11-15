@@ -11,9 +11,15 @@ body {
 }
 
 .dark {
-    margin: 0;
+    height: 100vh;
+    display: flex;
     background-color: black;
     color: white;
+    margin: 300px;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 html {
